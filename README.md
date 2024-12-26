@@ -3,8 +3,7 @@ Whenever my tomestone currency caps, I need to search for the highest-selling re
 
 This is mainly built with Selenium because it requires selecting the correct data center when scraping.
 
-Note: this only works for **Aether**, if you want to check the prices on other data centers you can change line 28 to a different data center.
->EC.presence_of_all_elements_located((By.XPATH, '//*[@value="Siren"]'))
+Can only select **NA data center.**
 
 ## Installation 
 [Download](https://github.com/redddddsu/Market-Scraper/releases/tag/v1.0) and unzip the file. 
