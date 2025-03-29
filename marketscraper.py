@@ -32,7 +32,7 @@ service = Service(executable_path="chromedriver.exe")
 driver= webdriver.Chrome(service=service)
 
 page = "https://universalis.app/market/"
-pageNumber = "44141"
+pageNumber = "45984"
 
 for i in range(6):
 
@@ -40,7 +40,7 @@ for i in range(6):
 
     driver.get(url)
 
-    if (pageNumber == "44141"):
+    if (pageNumber == "45984"):
         WebDriverWait(driver, 5).until (
             EC.presence_of_all_elements_located((By.CLASS_NAME, "servers"))
         )
